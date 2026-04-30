@@ -62,7 +62,7 @@ function SheetContent({
         {showCloseButton && (
           <SheetPrimitive.Close
             data-slot="sheet-close"
-            nativeButton={false}
+            nativeButton={true}
             render={
               <Button
                 variant="ghost"

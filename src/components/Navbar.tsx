@@ -49,7 +49,7 @@ export default function Navbar() {
 
             <Sheet>
               <SheetTrigger 
-                nativeButton={false}
+                nativeButton={true}
                 render={
                   <Button variant="ghost" size="icon" className="relative hover:text-blue-600" />
                 }
