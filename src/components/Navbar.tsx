@@ -10,7 +10,7 @@ import {
   SheetTrigger,
   SheetFooter
 } from './ui/sheet';
-import { ScrollArea } from './ui/scroll-area';
+import { ScrollArea } from './ui/ScrollArea';
 import { Separator } from './ui/separator';
 
 export default function Navbar() {
