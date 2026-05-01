@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
 import { ShoppingCart, Eye, Plus } from 'lucide-react';
-import { Button } from './ui/button';
-import { Badge } from './ui/badge';
+import { Button } from './ui/Button';
+import { Badge } from './ui/Badge';
 import { Product } from '../types';
 import { useCart } from '../services/CartContext';
 import { Link } from 'react-router-dom';

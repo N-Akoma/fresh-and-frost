@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Search, SlidersHorizontal, Grid3X3, List } from 'lucide-react';
-import { Input } from '../components/ui/input';
-import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/Input';
+import { Button } from '../components/ui/Button';
 import { 
   Tabs, 
   TabsList, 
   TabsTrigger 
-} from '../components/ui/tabs';
+} from '../components/ui/Tabs';
 import ProductCard from '../components/ProductCard';
 import { Product, CategoryType } from '../types';
 

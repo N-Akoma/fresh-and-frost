@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ShoppingCart, Menu, Ghost, User, Search } from 'lucide-react';
-import { Button } from './ui/button';
+import { Button } from './ui/Button';
 import { useCart } from '../services/CartContext';
 import { 
   Sheet, 
@@ -9,9 +9,9 @@ import {
   SheetTitle, 
   SheetTrigger,
   SheetFooter
-} from './ui/sheet';
+} from './ui/Sheet';
 import { ScrollArea } from './ui/ScrollArea';
-import { Separator } from './ui/separator';
+import { Separator } from './ui/Separator';
 
 export default function Navbar() {
   const { items, total, removeItem, updateQuantity, itemCount } = useCart();

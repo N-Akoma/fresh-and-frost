@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './services/CartContext';
-import { Toaster } from './components/ui/sonner';
+import { Toaster } from './components/ui/Sonner';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';

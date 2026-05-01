@@ -2,9 +2,9 @@ import * as React from 'react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ShieldCheck, ArrowRight } from 'lucide-react';
-import { Input } from '../components/ui/input';
-import { Button } from '../components/ui/button';
-import { Label } from '../components/ui/label';
+import { Input } from '../components/ui/Input';
+import { Button } from '../components/ui/Button';
+import { Label } from '../components/ui/Label';
 import { toast } from 'sonner';
 
 export default function LoginPage() {
